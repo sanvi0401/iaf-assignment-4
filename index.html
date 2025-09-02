@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahajanaka Jataka Storyboard - From Ajanta Cave Paintings</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Crimson Text', serif;
+            background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+        }
+        .title-font {
+            font-family: 'Cinzel', serif;
+        }
+        .storyboard-panel {
+            background: white;
+            border: 3px solid #8b4513;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        .storyboard-panel:hover {
+            transform: translateY(-5px);
+        }
+        .ajanta-border {
+            border: 4px solid #d4af37;
+            background: linear-gradient(45deg, #f4e6d7, #e6d2b5);
+        }
+        .scene-number {
+            background: linear-gradient(135deg, #8b4513, #a0522d);
+            color: white;
+            font-weight: bold;
+        }
+        .narrative-text {
+            background: rgba(139, 69, 19, 0.05);
+            border-left: 4px solid #d4af37;
+        }
+        .visual-notes {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 4px solid #8b4513;
+        }
+        .dialogue-box {
+            background: rgba(212, 175, 55, 0.2);
+            border: 2px solid #d4af37;
+            border-radius: 15px;
+            position: relative;
+        }
+        .dialogue-box::before {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 20px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #d4af37;
+        }
+        .reference-image {
+            border: 3px solid #d4af37;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="p-8">
+    <!-- Header -->
+    <div class="text-center mb-12">
+        <h1 class="title-font text-5xl font-bold text-gray-800 mb-4">The Mahajanaka Jataka</h1>
+        <h2 class="title-font text-2xl text-gray-600 mb-6">A Visual Storyboard from the Ajanta Cave Paintings</h2>
+        <p class="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            This storyboard translates the ancient Buddhist narrative of King Mahajanaka's spiritual journey from the famous murals of Ajanta Cave 1 (2nd century BCE - 6th century CE) into a modern graphic novel format. The story illustrates the perfection of endurance (viriya) and the Buddha's path to enlightenment through renunciation.
+        </p>
+    </div>
+
+    <!-- Reference to Original Ajanta Paintings -->
+    <div class="ajanta-border rounded-lg p-6 mb-12">
+        <h3 class="title-font text-2xl font-semibold text-gray-800 mb-4">Original Ajanta Cave Paintings Reference</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <img src="https://madrascourier.com/wp-content/uploads/2018/06/Mahajanaka-Jataka-Ajanta-Madras-Courier-01-1.jpg" alt="Mahajanaka Jataka mural from Ajanta Cave 1" class="reference-image w-full h-64 object-cover mb-2">
+                <p class="text-sm text-gray-600">Mahajanaka Jataka mural from Ajanta Cave 1, depicting the king's dilemma</p>
+            </div>
+            <div>
+                <img src="https://thejatakatales.com/wp-content/uploads/2021/03/539-Mahajanaka-Jataka.jpg" alt="Traditional painting of Mahajanaka Jataka" class="reference-image w-full h-64 object-cover mb-2">
+                <p class="text-sm text-gray-600">Traditional painting illustrating the Mahajanaka Jataka narrative</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Storyboard Panels -->
+    <div class="space-y-12">
+
+        <!-- Panel 1: The Royal Tragedy -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">1</div>
+                <h3 class="title-font text-2xl font-semibold">The Royal Tragedy</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>The kingdom is in chaos. King Aritthajanaka lies dying on the battlefield, defeated by his brother Polajanaka. In the palace, the pregnant queen, disguised as a peasant, flees through secret passages with her jewels hidden in a rice basket.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"My child must survive... he is destined for greatness."</p>
+                        <p class="text-xs text-gray-600 mt-1">- The fleeing queen</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Split screen - battlefield carnage (left) and palace escape (right)</li>
+                        <li>• <strong>Color Palette:</strong> Dark reds and browns for battle, muted earth tones for escape</li>
+                        <li>• <strong>Art Style:</strong> Inspired by Ajanta's flowing lines and detailed expressions</li>
+                        <li>• <strong>Key Elements:</strong> Broken crown, hidden jewels, desperate eyes of the queen</li>
+                        <li>• <strong>Perspective:</strong> Low angle to show the queen's vulnerability against towering palace walls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 2: Divine Intervention -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">2</div>
+                <h3 class="title-font text-2xl font-semibold">Divine Intervention</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>On a desolate road, the exhausted queen sits with her rice basket. Indra, king of the gods, appears as an elderly cart driver. Sensing the divine nature of her unborn child (the Bodhisatta), he offers her passage to the distant city of Kalacampa.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"Come, weary traveler. My cart shall carry you swiftly to safety."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Indra in disguise</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Wide establishing shot of the lonely road</li>
+                        <li>• <strong>Lighting:</strong> Divine golden glow around the cart driver, contrasting with dusty road</li>
+                        <li>• <strong>Art Style:</strong> Ethereal quality typical of Ajanta's divine figures</li>
+                        <li>• <strong>Key Elements:</strong> Simple cart transforming into magical vehicle, subtle divine aura</li>
+                        <li>• <strong>Movement:</strong> Speed lines showing the magical journey across 60 leagues in one night</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 3: The Prince's Awakening -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">3</div>
+                <h3 class="title-font text-2xl font-semibold">The Prince's Awakening</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>Sixteen-year-old Prince Mahajanaka learns the truth of his royal heritage from his mother. The handsome youth's eyes burn with determination as he prepares for his destiny. He takes only half her treasure, planning to earn the rest through trade.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"If you do not tell me who my father was, I will cut off your breast!"</p>
+                        <p class="text-xs text-gray-600 mt-1">- Young Mahajanaka demanding the truth</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Close-up character study emphasizing facial expressions</li>
+                        <li>• <strong>Color Palette:</strong> Rich blues and golds showing royal potential</li>
+                        <li>• <strong>Art Style:</strong> Detailed portraiture in the Ajanta tradition</li>
+                        <li>• <strong>Key Elements:</strong> Royal marks on his feet, determined expression, treasure chest</li>
+                        <li>• <strong>Symbolism:</strong> Half-empty treasure chest showing his self-reliance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 4: The Shipwreck -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">4</div>
+                <h3 class="title-font text-2xl font-semibold">The Shipwreck</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>The ship to Suvarnabhumi breaks apart in a violent storm. While other passengers panic and pray to various gods, Mahajanaka remains calm. He eats a large meal, covers himself with oil and sugar, and prepares for his incredible leap from the mast.</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <img src="https://thejatakatales.com/wp-content/uploads/2019/09/mahajanaka-jataka-539-endurance.jpg" alt="Mahajanaka being rescued from the sinking ship" class="reference-image w-full h-48 object-cover">
+                        <p class="text-xs text-gray-600 mt-1">Traditional depiction of Mahajanaka's rescue from the shipwreck</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"While others pray in vain, I shall prepare with wisdom and strength."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Mahajanaka's inner thoughts</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Dynamic action sequence with multiple sub-panels</li>
+                        <li>• <strong>Movement:</strong> Sweeping curves showing the 65-meter leap from the mast</li>
+                        <li>• <strong>Color Palette:</strong> Stormy grays and blues with red water from sea creatures</li>
+                        <li>• <strong>Key Elements:</strong> Breaking ship, panicked passengers, calm prince preparing</li>
+                        <li>• <strong>Contrast:</strong> Chaos around Mahajanaka vs. his serene preparation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 5: The Ocean Goddess -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">5</div>
+                <h3 class="title-font text-2xl font-semibold">The Ocean Goddess</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>After seven days floating in the ocean, the goddess responsible for rescuing virtuous souls finally notices Mahajanaka. Recognizing his divine nature, she lifts him from the water and cradles him like a child while he recovers for seven days in her ethereal embrace.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"You are no ordinary mortal. Rest now, noble one, and let me carry you to your destiny."</p>
+                        <p class="text-xs text-gray-600 mt-1">- The Ocean Goddess</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Ethereal, dreamlike composition with flowing water forms</li>
+                        <li>• <strong>Color Palette:</strong> Luminous blues and whites with pearl-like highlights</li>
+                        <li>• <strong>Art Style:</strong> Ajanta's graceful divine figures with flowing drapery</li>
+                        <li>• <strong>Key Elements:</strong> Goddess with maternal pose, sleeping prince, divine radiance</li>
+                        <li>• <strong>Atmosphere:</strong> Peaceful sanctuary contrasting with previous chaos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 6: The Royal Tests -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">6</div>
+                <h3 class="title-font text-2xl font-semibold">The Royal Tests</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>The royal chariot finds Mahajanaka resting on the ceremonial stone in the mango grove. Awakened by music, he remains perfectly calm. The chaplain sees the marks of royalty on his feet and recognizes him as destined to rule all four continents.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"The marks on your feet reveal your destiny - you shall reign over all four continents!"</p>
+                        <p class="text-xs text-gray-600 mt-1">- The Royal Chaplain</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Ceremonial composition with the stone as central focus</li>
+                        <li>• <strong>Color Palette:</strong> Regal purples and golds with lush green mango grove</li>
+                        <li>• <strong>Art Style:</strong> Formal Ajanta court scene with detailed architectural elements</li>
+                        <li>• <strong>Key Elements:</strong> Lotus-colored horses, divine chariot, royal symbols</li>
+                        <li>• <strong>Hierarchy:</strong> Mahajanaka elevated on stone, courtiers below in reverence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 7: The Golden Reign -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">7</div>
+                <h3 class="title-font text-2xl font-semibold">The Golden Reign</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>King Mahajanaka rules wisely for seven thousand years. He marries the beautiful Princess Sivali, fathers a son with auspicious marks, and brings his mother to live in palace luxury. His life overflows with endless joy and prosperity.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"My beloved king, our kingdom prospers under your wise rule."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Queen Sivali</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Opulent court scene with multiple tiers showing hierarchy</li>
+                        <li>• <strong>Color Palette:</strong> Rich golds, jewel tones, and vibrant colors of prosperity</li>
+                        <li>• <strong>Art Style:</strong> Peak Ajanta style with intricate details and ornate decoration</li>
+                        <li>• <strong>Key Elements:</strong> White umbrella of kingship, royal family, abundant court</li>
+                        <li>• <strong>Atmosphere:</strong> Height of material happiness and worldly success</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 8: The Mango Tree Revelation -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">8</div>
+                <h3 class="title-font text-2xl font-semibold">The Mango Tree Revelation</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>In the royal park, Mahajanaka encounters two mango trees - one laden with fruit, the other barren. After he eats from the fruitful tree, crowds destroy it seeking more mangoes, while the barren tree remains untouched. This becomes his profound metaphor for life.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"Possessions lead to destruction... It is better to be like the barren tree, free from attachment."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Mahajanaka's realization</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Split composition showing the two trees before and after</li>
+                        <li>• <strong>Symbolism:</strong> Destroyed tree (attachment) vs. untouched tree (detachment)</li>
+                        <li>• <strong>Color Palette:</strong> Contrasting vibrant fruits with stark, empty branches</li>
+                        <li>• <strong>Key Elements:</strong> Mahajanaka's contemplative expression, crowd's greed</li>
+                        <li>• <strong>Narrative Focus:</strong> The moment of spiritual awakening and understanding</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 9: The Decision to Renounce -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">9</div>
+                <h3 class="title-font text-2xl font-semibold">The Decision to Renounce</h3>
+            </div>
+
+            <div class="mb-6">
+                <img src="https://madrascourier.com/wp-content/uploads/2018/06/Mahajanaka-Jataka-Ajanta-Madras-Courier-08.jpg" alt="Mahajanaka in dilemma - the famous Ajanta cave painting" class="reference-image w-full h-64 object-cover mx-auto">
+                <p class="text-center text-sm text-gray-600 mt-2">The famous "King in Dilemma" painting from Ajanta Cave 1</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>In his palace chamber, Mahajanaka sits in deep contemplation, having understood the futility of worldly attachments. He puts his commander-in-chief in charge and begins living as an ascetic at the top of the palace, preparing for his great renunciation.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"I must leave all glory behind and seek the path of truth in the Himalayas."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Mahajanaka's inner resolve</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Intimate interior scene showing internal struggle</li>
+                        <li>• <strong>Lighting:</strong> Soft, contemplative lighting emphasizing solitude</li>
+                        <li>• <strong>Art Style:</strong> Following the famous Ajanta "King in Dilemma" composition</li>
+                        <li>• <strong>Key Elements:</strong> Simple robes, meditation posture, abandoned royal symbols</li>
+                        <li>• <strong>Mood:</strong> Peaceful determination replacing worldly concerns</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 10: The Great Renunciation -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">10</div>
+                <h3 class="title-font text-2xl font-semibold">The Great Renunciation</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>At sunrise, Mahajanaka walks out of the palace. His seven hundred queens and the entire population chase after him, wailing and pleading. Queen Sivali desperately tries to make him return by claiming the treasury is burning, but he declares he no longer owns anything.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"I have no treasure now - I have nothing. Do not follow me beyond this line."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Mahajanaka drawing the line with his staff</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Dramatic exodus scene with procession</li>
+                        <li>• <strong>Movement:</strong> Strong directional flow from palace toward freedom</li>
+                        <li>• <strong>Color Palette:</strong> Dawn colors transitioning from palace gold to natural earth tones</li>
+                        <li>• <strong>Key Elements:</strong> Walking staff line, crowds of followers, determined king</li>
+                        <li>• <strong>Emotion:</strong> Contrast between the king's peace and followers' anguish</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 11: The Teaching Moments -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">11</div>
+                <h3 class="title-font text-2xl font-semibold">The Teaching Moments</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>During the 60-league journey, Mahajanaka uses three encounters to teach spiritual truths: the single bracelet's peace vs. the pair's noise, the arrow-maker's focused vision with one eye, and finally the single grass stalk that cannot be rejoined once split.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"See how the single bracelet is peaceful, while the pair makes noise? This is the lesson of detachment."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Mahajanaka teaching through parables</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Three sequential teaching vignettes</li>
+                        <li>• <strong>Focus:</strong> Close-ups on the teaching objects (bracelets, arrow, grass)</li>
+                        <li>• <strong>Art Style:</strong> Simple, clear imagery emphasizing the lessons</li>
+                        <li>• <strong>Key Elements:</strong> Teacher-student positioning, symbolic objects</li>
+                        <li>• <strong>Progression:</strong> Growing understanding despite persistent following</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 12: The Final Escape -->
+        <div class="storyboard-panel rounded-lg p-8">
+            <div class="flex items-center mb-6">
+                <div class="scene-number rounded-full w-12 h-12 flex items-center justify-center text-xl mr-4">12</div>
+                <h3 class="title-font text-2xl font-semibold">The Final Escape</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="narrative-text p-4 rounded">
+                        <h4 class="font-semibold mb-2">Scene Description:</h4>
+                        <p>When Queen Sivali faints from grief on the road, Mahajanaka seizes the moment to disappear into the forest. After a week of solitary meditation, he reaches mystical insight and enlightenment. Meanwhile, Sivali becomes an ascetic and crowns their son as the new king.</p>
+                    </div>
+                    
+                    <div class="dialogue-box p-3">
+                        <p class="italic">"At last... I have found the truth that lies beyond all worldly attachments."</p>
+                        <p class="text-xs text-gray-600 mt-1">- Mahajanaka achieving enlightenment</p>
+                    </div>
+                </div>
+                
+                <div class="visual-notes p-4 rounded">
+                    <h4 class="font-semibold mb-2">Visual Composition:</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>• <strong>Panel Layout:</strong> Split between forest meditation and palace coronation</li>
+                        <li>• <strong>Lighting:</strong> Divine radiance around the meditating figure</li>
+                        <li>• <strong>Color Palette:</strong> Natural greens and browns transitioning to golden enlightenment</li>
+                        <li>• <strong>Key Elements:</strong> Lotus posture, rays of wisdom, crowned prince</li>
+                        <li>• <strong>Completion:</strong> Full circle from kingdom lost to kingdom transcended</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer with Educational Notes -->
+    <div class="mt-16 ajanta-border rounded-lg p-8">
+        <h3 class="title-font text-2xl font-semibold text-gray-800 mb-4">Educational Notes</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
+            <div>
+                <h4 class="font-semibold mb-2">Historical Context:</h4>
+                <ul class="space-y-1">
+                    <li>• The Ajanta Caves (2nd century BCE - 6th century CE) contain some of India's finest ancient art</li>
+                    <li>• Cave 1 features the most detailed narrative paintings of Jataka tales</li>
+                    <li>• Artists used reflected sunlight and oil lamps to paint in the dark caves</li>
+                    <li>• The paintings demonstrate sophisticated understanding of color, perspective, and emotion</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-2">Buddhist Teachings:</h4>
+                <ul class="space-y-1">
+                    <li>• The story illustrates the perfection of endurance (viriya paramita)</li>
+                    <li>• Themes include the futility of attachment and the path to liberation</li>
+                    <li>• Represents one of the Buddha's previous lives as a Bodhisattva</li>
+                    <li>• Shows the gradual awakening to spiritual truth through life experience</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="mt-6 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
+            <p class="text-sm italic">
+                "This storyboard adaptation preserves the narrative structure and spiritual significance of the original Ajanta paintings while making the ancient Buddhist wisdom accessible through modern visual storytelling techniques. The story continues to inspire seekers on the path to enlightenment across cultures and centuries."
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
